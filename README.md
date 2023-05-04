@@ -28,6 +28,8 @@ The input of this scraper should be JSON containing the list of pages on Trustra
 
 - `mode`: (Optional) (String) Mode that is required when you provide a search keyword. Can be `all`, `product` or `vendor`.
 
+- `includeReviews`: (Optional) (Boolean) Adding reviews into the product objects is optional and by default it is `false`. If you want to scrape the reviews of the companies, then you can set this option as `true`.
+
 - `startUrls`: (Optional) (Array) List of Trustradius URLs. You should only provide user, product, vendor or search URLs.
 
 - `endPage`: (Optional) (Number) Final number of page that you want to scrape. Default is `Infinite`. This is applies to all `search` request and `startUrls` individually.
