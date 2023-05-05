@@ -271,7 +271,50 @@ The structure of each item in Trustradius looks like this:
 		"otherUnitTerms": "",
 		"unitTerms": null
 	},
-	"ratingsNumber": 1974
+	"ratingsNumber": 1974,
+	"reviews": [
+		{
+			"userName": "User Name",
+			"date": "2022-03-29T23:45:59.315Z",
+			"editedDate": "2022-03-29T13:44:09.330Z",
+			"submittedDate": "2022-03-29T14:06:11.733Z",
+			"lastUpdatedDate": "2022-03-29T23:45:59.315Z",
+			"title": "Filestage 2022-03-29 08:14:22",
+			"userOccupation": "Professional",
+			"userCompany": "Company Name",
+			"rating": 10,
+			"questions": [
+				{
+					"title": "Use Cases and Deployment Scope",
+					"answer": "We use Dropbox to organize, proof, and get approvals for any type of collateral we are producing. It allows us to create pieces from concept to final press-ready mechanicals. Everyone knows at all times where the project is in the process and knows when it is time for them to move forward with their contribution. Everything is documented, so there is never confusion about how we got to the final piece."
+				},
+				{
+					"title": "Pros",
+					"answer": "Compares past and present versions.\nMakes commenting easy.\nEasy navigation."
+				},
+				{
+					"title": "Cons",
+					"answer": "Alerts can be improved.\nWould love to have this be an application on my desktop so I don't have to go through my browser every time."
+				},
+				{
+					"title": "Likelihood to Recommend",
+					"answer": "I think Dropbox is perfect for projects where there is a team involved and several eyes need to be on the project.  I don't think it is necessary for small projects where the approval process only goes through one other person. It also keeps everyone on schedule without being annoying."
+				},
+				{
+					"title": "Return on Investment",
+					"answer": "In general, it has saved the company time (which is money) by keeping us organized and having everyone on the same page continuously."
+				},
+				{
+					"title": "Alternatives Considered",
+					"answer": "We use Slack  - but not really for organizing, proofing, or approving projects. We use it more as a communication tool for the employees that are spread across the country. We will occasionally post smaller jobs there - but most of our projects go through Dropbox."
+				},
+				{
+					"title": "Other Software Used",
+					"answer": "Adobe Illustrator CC, Adobe InDesign, Adobe Acrobat Reader DC"
+				}
+			]
+		},
+	]
 }
 ```
 ### Vendor Detail
